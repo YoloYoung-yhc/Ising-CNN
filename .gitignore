@@ -1,0 +1,16 @@
+# Python bytecode and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Generated datasets, model weights, and figures
+data/
+models/
+results/
+*.pkl
+*.pth
+
+# Local tooling
+.idea/
+.vscode/

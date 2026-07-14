@@ -1,0 +1,5 @@
+# Core scientific-computing and machine-learning dependencies.
+# Verified in the `ising` Conda environment with Python 3.10.20.
+numpy==2.2.5
+matplotlib==3.10.9
+torch==2.13.0
