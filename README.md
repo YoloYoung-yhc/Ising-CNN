@@ -195,8 +195,4 @@ The conventional simulation reproduces temperature-dependent energy, heat capaci
 - Monte Carlo sampling and neural-network optimization are stochastic, so numerical results may vary between runs.
 - The simulation uses periodic boundary conditions and initializes each chain with aligned spins.
 - The code uses `torch.cuda.is_available()` to select a CUDA device when possible; no code changes are needed for CPU execution.
-- The current `.gitignore` excludes `data/`, `models/`, and `results/`. If you want the result figures displayed on GitHub, add the PNG files explicitly or revise that rule before committing.
 
-## License
-
-No license has been selected yet. Add a `LICENSE` file before distributing the project or accepting external contributions.
